@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>300291311790-d24ulu09356h7uq38g4v231n83ukh3hv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.300291311790-d24ulu09356h7uq38g4v231n83ukh3hv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeGHNgz9t4PQJWMi9spEaeCFw9FR3fDNs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>300291311790</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sendaMPC.Firebase-Chat-Messenger</string>
+	<key>PROJECT_ID</key>
+	<string>gameofchat-5e2c6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gameofchat-5e2c6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:300291311790:ios:63b9f14a23dc79c0</string>
+	<key>DATABASE_URL</key>
+	<string>https://gameofchat-5e2c6.firebaseio.com</string>
+</dict>
+</plist>
