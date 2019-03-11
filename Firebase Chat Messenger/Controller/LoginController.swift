@@ -19,6 +19,8 @@ class LoginController: UIViewController {
         let view = UIView()
             view.translatesAutoresizingMaskIntoConstraints = false
             view.backgroundColor = .white
+            view.layer.borderColor = UIColor.lightGray.cgColor
+            view.layer.borderWidth = 1
             view.layer.cornerRadius = 5
             view.clipsToBounds = true
         return view
@@ -63,7 +65,7 @@ class LoginController: UIViewController {
     lazy var loninRegisterSegmentedController:UISegmentedControl = {
         
         let sg = UISegmentedControl(items: ["Login","Register"])
-            sg.tintColor = .white
+            sg.tintColor = .purple
             sg.translatesAutoresizingMaskIntoConstraints = false
             sg.selectedSegmentIndex = 1
             sg.addTarget(self, action: #selector(handleLoginRegister), for: .valueChanged)
@@ -126,7 +128,7 @@ class LoginController: UIViewController {
     
     lazy var profileImageView:UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "gameofthrones_splash")
+        imageView.image = #imageLiteral(resourceName: "plus_photo").withRenderingMode(.alwaysOriginal)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         imageView.isUserInteractionEnabled = true
@@ -139,7 +141,8 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(r: 61, g: 91, b: 151)
+        view.backgroundColor = UIColor.white
+        
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleDis)))
         view.addSubview(profileImageView)
         view.addSubview(inputContainer)
